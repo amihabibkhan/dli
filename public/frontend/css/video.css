@@ -1,0 +1,88 @@
+.video{
+    padding: 30px 15px 0 15px;
+}
+.video h2{
+    font-weight: 600;
+}
+.video_frame{
+    background-color: black;
+    border: 15px solid #ffb607;
+    box-sizing: border-box;
+}
+.content_list{
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 33%;
+    padding-bottom: 10px;
+}
+.course_title{
+    padding: 15px;
+    background-color: #ffb607;
+}
+.course_title h2{
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+.scrollable_content{
+    padding: 15px 15px 100px 15px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.faq-accordion .accordion .accordion-title{
+    padding: 15px 40px 15px 15px;
+    background-color: #ffb607;
+}
+.faq-accordion .accordion .accordion-title i{
+    right: 15px;
+}
+.faq-accordion .accordion .accordion-item{
+    margin-bottom: 5px;
+}
+.faq-accordion .accordion .accordion-content{
+    padding: 15px 0 0 0;
+}
+.inner_item li a{
+    padding: 15px;
+    display: block;
+    background-color: #efefef;
+    margin-bottom: 10px;
+    color: #000;
+    transition: all .5s;
+}
+.inner_item li a:hover{
+    background-color: #d4d4d4;
+}
+.inner_item li a i{
+    margin-right: 10px;
+}
+.inner_item li.active a{
+    background-color: rgba(204,0,0,0.28);
+}
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 991px) {
+    .content_list{
+        position: relative;
+        width: auto;
+    }
+    .video h2 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .video_frame {
+        padding: 0;
+    }
+    .video {
+        margin-bottom: 30px;
+    }
+    .course_title h2{
+        font-size: 20px;
+    }
+}
