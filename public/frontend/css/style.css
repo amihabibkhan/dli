@@ -66,12 +66,11 @@ Default Style
     url('../fonts/Kalpurush.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
-}
+} 
 
 body{
-    font-family: 'Kalpurush', Arial, sans-serif !important;
+  font-family: 'Hind Siliguri', sans-serif !important;
 }
-
 
 /* my css start */
 p.course_short_details{
@@ -133,7 +132,7 @@ p.course_short_details::after{
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   --font-family: 'Rubik', sans-serif;
-  --main-color: #ffb607;
+  --main-color: #f48120;
   --body-color: #616161;
   --heading-color: #111111;
   --white-color: #ffffff;
@@ -6786,3 +6785,37 @@ product-view-one
   background-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.custom_banner{ 
+  overflow: hidden;
+}
+.custom_banner .container{
+  padding: 200px 0;
+}
+.custom_banner .container{ 
+  position: relative; 
+}
+.custom_banner .container img{ 
+  position: absolute;
+  bottom: 0;
+  right: 0;  
+}
+.custom_banner h1,
+.custom_banner h2{
+  color: #193170;
+  font-size: 65px;
+  font-weight: 700;
+}
+.custom_banner h1{
+  font-size: 75px;
+  color: #f48120; 
+}
+.custom_banner a.banner_button{
+  background-color: #103274;
+  color: #ffffff;
+  padding: 15px 35px;
+  margin-top: 10px;
+  border-radius: 50px;
+  font-size: 18px;
+} 

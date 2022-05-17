@@ -34,8 +34,8 @@
                                 <td>{{ $single_course->title }}</td>
                                 <td>{{ date_maker($single_course->starting_date, 'd M, Y') }}</td>
                                 <td>
-                                    <a href="{{ route('courseUserList', $single_course->id) }}">
-                                        {{ count($single_course->users) }}
+                                    <a class="btn btn-success" href="{{ route('courseUserList', $single_course->id) }}">
+                                        List ({{ count($single_course->users) }})
                                     </a>
                                 </td>
 

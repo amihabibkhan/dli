@@ -15,11 +15,12 @@
     .my_banner .container, .page-title-area .container {
         position: relative;
         z-index: 2;
-    }
+    } 
 }
 
 /* Max width 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) { 
+
     .single-course-area .review-content .course-reviews-content .course-reviews li{
         text-align: center;
     }
@@ -1801,6 +1802,42 @@ Continuer Custom Width Area Style*/
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1230px;
+  }
+  .custom_banner .container img{  
+    right: -250px;  
+  }
+}
+@media only screen and (max-width: 991px) { 
+  .custom_banner .container img {
+      position: absolute;
+      top: unset;
+      right: unset;
+      transform: translateX(-50%);
+      height: unset;
+      max-width: 320px;
+      bottom: 0; 
+      left: 50%;
+  }   
+  .custom_banner{
+      padding-bottom: 0;
+  }
+  .custom_banner .container {
+      padding: 50px 0 0; 
+  }
+  .custom_banner .container .col{
+      text-align: center;
+  }
+  .custom_banner h1, .custom_banner h2 { 
+      font-size: 30px; 
+      padding-left: 20px;
+  }
+  .custom_banner a.banner_button{
+      margin-bottom: 250px;
+      font-size: 16px;
+      padding: 10px 25px;
+  } 
+  .custom_banner h1 {
+      font-size: 40px; 
   }
 }
 /*# sourceMappingURL=responsive.css.map */

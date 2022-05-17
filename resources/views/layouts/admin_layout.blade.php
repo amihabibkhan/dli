@@ -54,7 +54,7 @@ Coded by www.creative-tim.com
                 <!-- <p>CT</p> -->
             </a>
             <a target="_blank" href="{{ route('index') }}" class="simple-text logo-normal">
-                LEGEND ADMIN
+                DLI ADMIN
                 <!-- <div class="logo-image-big">
                   <img src="{{ asset('admin') }}/img/logo-big.png">
                 </div> -->
@@ -244,7 +244,7 @@ Coded by www.creative-tim.com
                     </nav>
                     <div class="credits ml-auto">
               <span class="copyright">
-                &copy; {{ date('Y') }} developed by <i class="fa fa-heart heart"></i> by LEGEND IT
+                &copy; {{ date('Y') }} developed by <i class="fa fa-heart heart"></i> by <a href="https://innovainst.com/">INNOVA IT</a>
               </span>
                     </div>
                 </div>

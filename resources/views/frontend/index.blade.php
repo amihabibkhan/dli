@@ -4,16 +4,23 @@
 
 @section('main_content')
 
-    <!-- Start Banner Area -->
-    <section class="my_banner">
+    <style> 
+        
+    </style>
+
+    <section class="custom_banner">
         <div class="container">
-            <h1>{{ option('site_title') }}</h1>
-            <h2>{{ option('slogan') }}</h2>
-            <hr>
-            <a href="#our_course" class="banner_button">আমাদের কোর্স সমূহ</a>
+            <img src="{{ asset("frontend/img/banner_img.png") }}" alt="">
+            <div class="row">
+                <div class="col">
+                    <h2>{{ option('slogan') }}</h2>
+                    <h1>{{ option('site_title') }}</h1>
+                    <a href="#our_course" class="banner_button">আমাদের কোর্স সমূহ</a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- End Banner Area -->
+ 
 
 
     <!-- Start Achieve Area -->
