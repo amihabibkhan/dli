@@ -1,11 +1,11 @@
 @extends('layouts.frontend_layout')
 
-@section('page_title') হোম - লিজেন্ড আইটি@endsection
+@section('page_title') হোম - ডেনিং ল@endsection
 
 @section('main_content')
 
-    <style> 
-        
+    <style>
+
     </style>
 
     <section class="custom_banner">
@@ -20,7 +20,7 @@
             </div>
         </div>
     </section>
- 
+
 
 
     <!-- Start Achieve Area -->

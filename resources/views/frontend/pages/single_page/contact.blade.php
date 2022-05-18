@@ -12,10 +12,10 @@
                         <i class="flaticon-call"></i>
                         <h3>আমাদেরকে কল করুন</h3>
                         @if(option('phone_1'))
-                            <a href="tel:{{ option('phone_1') }}">ফোন : {{ $bangla_number->BnNum(option('phone_1')) }}</a>
+                            <a href="tel:{{ option('phone_1') }}">ফোন : {{ option('phone_1') }}</a>
                         @endif
                         @if(option('phone_2'))
-                            <a href="tel:{{ option('phone_2') }}">ফোন : {{ $bangla_number->BnNum(option('phone_2')) }}</a>
+                            <a href="tel:{{ option('phone_2') }}">ফোন : {{ option('phone_2') }}</a>
                         @endif
                     </div>
                 </div>

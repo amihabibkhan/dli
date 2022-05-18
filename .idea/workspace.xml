@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87cbd1df-0c36-4f08-a8c2-30362dff1c81" name="Changes" comment="" />
+    <list default="true" id="87cbd1df-0c36-4f08-a8c2-30362dff1c81" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend/img/education-img-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/img/education-img-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend/img/education-img-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/img/education-img-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend/img/education-img-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/img/education-img-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/single_page/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/single_page/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/single_page/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/single_page/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend_layout.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,6 +140,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -144,6 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652464894196</updated>
       <workItem from="1652464896121" duration="597000" />
+      <workItem from="1652802023030" duration="4461000" />
+      <workItem from="1652841850141" duration="46000" />
     </task>
     <servers />
   </component>

@@ -60,7 +60,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('frontend') }}/img/fab_icon.png">
+    <link rel="icon" type="image/png" href="{{ asset('storage') }}/{{ option('icon') }}">
 
     @yield('css')
     <!-- Title -->
@@ -331,7 +331,7 @@
 <footer class="footer-bottom-area">
     <div class="container">
         <div class="copyright-wrap">
-            <p>কপিরাইট &copy; {{ $bangla_number->BnNum(date('Y')) }} | <a href="{{ route('index') }}" target="blank">লিজেন্ড আইটি ইনস্টিটিউট</a></p>
+            <p>কপিরাইট &copy; {{ $bangla_number->BnNum(date('Y')) }} | ডেনিং ল | ডেভেলপড বাই <a href="{{ route('index') }}" target="blank">ইনোভা আইটি</a></p>
         </div>
     </div>
 </footer>
